@@ -20,6 +20,7 @@ jobs:
         run: |
           npm -v
           npm install
-          npm test
+          npm test:unit
+          npm test:e2e
         env:
           CI: true
