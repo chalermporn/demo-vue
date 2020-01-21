@@ -1,0 +1,20 @@
+{
+  "printWidth": 150,
+  "bracketSpacing": false,
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "parser": "flow"
+      }
+    }
+  ],
+  "trailingComma": "none",
+  "jsxBracketSameLine": false,
+  "noSemi": true,
+  "rcVerbose": true,
+  "useTabs": false
+}
