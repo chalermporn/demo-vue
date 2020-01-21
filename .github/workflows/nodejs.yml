@@ -26,11 +26,8 @@ jobs:
       - name: build
         run: |
           npm run build
-          cd dist
-          ls -lah
-          git init
-          git add -A
-          git commit -m 'deploy'
-          git push -f https://github.com/chalermporn/demo-vue.git master:gh-pages
+      - name: deploy
+        run: |
+          npm run deploy
         env:
           CI: true
